@@ -10,7 +10,6 @@
 #include "DataInfoAlquiler.h"
 #include "DataInfoVenta.h"
 #include "DataInmobiliaria.h"
-namespace AltaPropiedad{
 
 	class Sistema{
 		private:
@@ -19,6 +18,7 @@ namespace AltaPropiedad{
 			DataPropiedad*Propiedad;
 			DataInfoVenta*Venta;
 			DataInfoAlquiler*Alquiler;
+			DataInmobiliaria*Inmobiliaria;
 			
 			static int codigoPropiedad;
 
@@ -35,23 +35,9 @@ namespace AltaPropiedad{
 			void ingresarPrecioAlquiler(float a);
 			void ingresarPrecioVenta(float v);
 			void confirmarAltaPropiedad();
-	};
-}
-
-
-namespace AltaInmobiliaria{
-
-	class Sistema{
-		private:
-				DataInmobiliaria*Inmobiliaria;
-
-		public:
-				IngresarInmobiliaria(DataInmobiliaria Inmobiliaria);
-				ConfirmarAltaInmobiliaria();
-
+			void IngresarInmobiliaria(DataInmobiliaria Inmobiliaria);
+			void ConfirmarAltaInmobiliaria();
 	};
 
-}
 
 #endif
-
