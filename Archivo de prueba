@@ -1,0 +1,16 @@
+//Archivo de prueba en c++
+
+#include "Propiedad.h"
+#include "Zona.h"
+#include 
+
+Using namespace std;
+
+
+int main(){
+
+
+
+
+
+}
